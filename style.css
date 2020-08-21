@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.pagina{
+    background-color: #522da8;
+    background: linear-gradient(90deg, rgba(82,45,168,1) 0%, rgba(9,9,121,1) 35%, rgba(0,255,196,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.foto{
+    border: 2px solid white;
+    border-radius: 100%;
+    margin: 10px;
+}
+.titulo{
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    margin: 10px;
+}
+.texto{
+    color: #ffffff;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px;
+}
+.links img{
+    margin: 10px;
+}
